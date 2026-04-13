@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Venda - Veículo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <header class="bg-red-600 text-white text-center py-4 shadow-lg">
+        <h1 class="text-3xl font-bold uppercase tracking-widest">🚗 VEÍCULO À VENDA</h1>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-4">
+        <section class="text-center my-6">
+            <h2 class="text-3xl font-extrabold text-gray-800 uppercase">[MODELO DO VEÍCULO]</h2>
+            <p class="text-2xl text-gray-600 font-semibold mt-2">Preço: R$ 00.000,00</p>
+        </section>
+
+        <div class="rounded-xl overflow-hidden shadow-2xl mb-6">
+            <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=80" alt="Foto Principal do Veículo" class="w-full h-auto object-cover max-h-[500px]">
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="md:col-span-2 bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 border-b pb-2">Detalhes e Especificações</h3>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-gray-700">
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>Ano:</strong> 20XX</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>Único/Segundo dono</strong></li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>KM:</strong> 00.000 km</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>Revisões em dia</strong></li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>Combustível:</strong> Flex</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-600 mr-2"></i> <strong>Documentação:</strong> OK</li>
+                </ul>
+
+                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-green-500 font-medium">✅ Central Multimídia</span>
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-green-500 font-medium">✅ Câmera de Ré / Sensor</span>
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-green-500 font-medium">✅ Ar Condicionado / Direção</span>
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-green-500 font-medium">✅ Alarme e Travas Elétricas</span>
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-blue-500 font-medium">📦 Itens Adicionais Inclusos</span>
+                    <span class="bg-gray-50 p-2 rounded border-l-4 border-blue-500 font-medium">📦 Manuais e Chave Reserva</span>
+                </div>
+            </div>
+
+            <div class="bg-green-600 text-white p-6 rounded-lg shadow-md flex flex-col justify-center items-center text-center">
+                <i class="fab fa-whatsapp text-6xl mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Contato Direto</h3>
+                <p class="text-sm mb-6">Entre em contato via WhatsApp para tirar dúvidas ou agendar visita.</p>
+                <a href="#" target="_blank" class="bg-white text-green-700 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 w-full">
+                    (00) 0 0000-0000
+                </a>
+            </div>
+        </div>
+
+        <section class="mt-10 mb-10">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center italic">Galeria de Fotos</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=600&q=80" alt="Exterior" class="rounded-lg shadow hover:opacity-90 transition duration-300 h-48 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=600&q=80" alt="Interior" class="rounded-lg shadow hover:opacity-90 transition duration-300 h-48 w-full object-cover">
+                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=600&q=80" alt="Detalhe" class="rounded-lg shadow hover:opacity-90 transition duration-300 h-48 w-full object-cover">
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-center py-8 text-gray-400 text-sm">
+        <p>&copy; 2026 Template de Venda de Carros - Desenvolvido para Portfólio</p>
+    </footer>
+
+</body>
+</html>
